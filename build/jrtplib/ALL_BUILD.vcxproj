@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4B7BEB31-565F-31A7-8B07-97236794B2D4}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\..\JTHREAD\build\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\..\JTHREAD\build\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\..\JTHREAD\build\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\..\JTHREAD\build\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/third_party/JRTPLIB/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\software\CMake\bin\cmake.exe -HD:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/myRtspClient -BD:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build --check-stamp-file D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/jrtplib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/third_party/JRTPLIB/CMakeLists.txt;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\CMakeLists.txt;D:\software\CMake\share\cmake-3.11\Modules\CheckCXXCompilerFlag.cmake;D:\software\CMake\share\cmake-3.11\Modules\CheckCXXSourceCompiles.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFile.cmake;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFileCXX.cmake;D:\software\CMake\share\cmake-3.11\Modules\CheckCXXSourceCompiles.cmake;D:\software\CMake\share\cmake-3.11\Modules\TestBigEndian.cmake;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\cmake\Macros.cmake;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFile.cxx.in;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFile.cxx.in;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFile.cxx.in;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\cmake\FindLIBSRTP.cmake;D:\software\CMake\share\cmake-3.11\Modules\FindPkgConfig.cmake;D:\software\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;D:\software\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;D:\software\CMake\share\cmake-3.11\Modules\FindPkgConfig.cmake;D:\software\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;D:\software\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;D:\software\CMake\share\cmake-3.11\Modules\CheckTypeSize.cmake;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFile.cmake;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFileCXX.cmake;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFile.c.in;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFile.c.in;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFile.c.in;D:\software\CMake\share\cmake-3.11\Modules\CheckTypeSize.c.in;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c;D:\software\CMake\share\cmake-3.11\Modules\TestEndianess.c.in;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\winsocktest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\socklentest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\ipv4mcasttest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\salentest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\getloginrtest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\ipv6test.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\ipv6mcasttest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\performancecounter.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\suffix.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\arrayalloc.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\randstest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\strncpystest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\clockgettimetest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\polltest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\wsapolltest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\msgnosignaltest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\ifaddrstest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\src\rtptypes.h.in;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\src\rtpconfig.h.in;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\src\rtplibraryversioninternal.h.in;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\cmake\JRTPLIBConfig.cmake.in;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\jrtplib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/third_party/JRTPLIB/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\software\CMake\bin\cmake.exe -HD:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/myRtspClient -BD:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build --check-stamp-file D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/jrtplib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/third_party/JRTPLIB/CMakeLists.txt;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\CMakeLists.txt;D:\software\CMake\share\cmake-3.11\Modules\CheckCXXCompilerFlag.cmake;D:\software\CMake\share\cmake-3.11\Modules\CheckCXXSourceCompiles.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFile.cmake;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFileCXX.cmake;D:\software\CMake\share\cmake-3.11\Modules\CheckCXXSourceCompiles.cmake;D:\software\CMake\share\cmake-3.11\Modules\TestBigEndian.cmake;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\cmake\Macros.cmake;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFile.cxx.in;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFile.cxx.in;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFile.cxx.in;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\cmake\FindLIBSRTP.cmake;D:\software\CMake\share\cmake-3.11\Modules\FindPkgConfig.cmake;D:\software\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;D:\software\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;D:\software\CMake\share\cmake-3.11\Modules\FindPkgConfig.cmake;D:\software\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;D:\software\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;D:\software\CMake\share\cmake-3.11\Modules\CheckTypeSize.cmake;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFile.cmake;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFileCXX.cmake;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFile.c.in;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFile.c.in;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFile.c.in;D:\software\CMake\share\cmake-3.11\Modules\CheckTypeSize.c.in;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c;D:\software\CMake\share\cmake-3.11\Modules\TestEndianess.c.in;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\winsocktest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\socklentest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\ipv4mcasttest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\salentest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\getloginrtest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\ipv6test.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\ipv6mcasttest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\performancecounter.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\suffix.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\arrayalloc.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\randstest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\strncpystest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\clockgettimetest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\polltest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\wsapolltest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\msgnosignaltest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\ifaddrstest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\src\rtptypes.h.in;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\src\rtpconfig.h.in;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\src\rtplibraryversioninternal.h.in;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\cmake\JRTPLIBConfig.cmake.in;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\jrtplib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/third_party/JRTPLIB/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\software\CMake\bin\cmake.exe -HD:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/myRtspClient -BD:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build --check-stamp-file D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/jrtplib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/third_party/JRTPLIB/CMakeLists.txt;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\CMakeLists.txt;D:\software\CMake\share\cmake-3.11\Modules\CheckCXXCompilerFlag.cmake;D:\software\CMake\share\cmake-3.11\Modules\CheckCXXSourceCompiles.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFile.cmake;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFileCXX.cmake;D:\software\CMake\share\cmake-3.11\Modules\CheckCXXSourceCompiles.cmake;D:\software\CMake\share\cmake-3.11\Modules\TestBigEndian.cmake;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\cmake\Macros.cmake;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFile.cxx.in;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFile.cxx.in;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFile.cxx.in;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\cmake\FindLIBSRTP.cmake;D:\software\CMake\share\cmake-3.11\Modules\FindPkgConfig.cmake;D:\software\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;D:\software\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;D:\software\CMake\share\cmake-3.11\Modules\FindPkgConfig.cmake;D:\software\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;D:\software\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;D:\software\CMake\share\cmake-3.11\Modules\CheckTypeSize.cmake;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFile.cmake;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFileCXX.cmake;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFile.c.in;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFile.c.in;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFile.c.in;D:\software\CMake\share\cmake-3.11\Modules\CheckTypeSize.c.in;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c;D:\software\CMake\share\cmake-3.11\Modules\TestEndianess.c.in;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\winsocktest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\socklentest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\ipv4mcasttest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\salentest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\getloginrtest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\ipv6test.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\ipv6mcasttest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\performancecounter.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\suffix.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\arrayalloc.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\randstest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\strncpystest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\clockgettimetest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\polltest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\wsapolltest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\msgnosignaltest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\ifaddrstest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\src\rtptypes.h.in;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\src\rtpconfig.h.in;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\src\rtplibraryversioninternal.h.in;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\cmake\JRTPLIBConfig.cmake.in;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\jrtplib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/third_party/JRTPLIB/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\software\CMake\bin\cmake.exe -HD:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/myRtspClient -BD:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build --check-stamp-file D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/jrtplib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/third_party/JRTPLIB/CMakeLists.txt;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\CMakeLists.txt;D:\software\CMake\share\cmake-3.11\Modules\CheckCXXCompilerFlag.cmake;D:\software\CMake\share\cmake-3.11\Modules\CheckCXXSourceCompiles.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFile.cmake;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFileCXX.cmake;D:\software\CMake\share\cmake-3.11\Modules\CheckCXXSourceCompiles.cmake;D:\software\CMake\share\cmake-3.11\Modules\TestBigEndian.cmake;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\cmake\Macros.cmake;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFile.cxx.in;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFile.cxx.in;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFile.cxx.in;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\cmake\FindLIBSRTP.cmake;D:\software\CMake\share\cmake-3.11\Modules\FindPkgConfig.cmake;D:\software\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;D:\software\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;D:\software\CMake\share\cmake-3.11\Modules\FindPkgConfig.cmake;D:\software\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;D:\software\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;D:\software\CMake\share\cmake-3.11\Modules\CheckTypeSize.cmake;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFile.cmake;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFileCXX.cmake;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFile.c.in;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFile.c.in;D:\software\CMake\share\cmake-3.11\Modules\CheckIncludeFile.c.in;D:\software\CMake\share\cmake-3.11\Modules\CheckTypeSize.c.in;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c;D:\software\CMake\share\cmake-3.11\Modules\TestEndianess.c.in;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\winsocktest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\socklentest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\ipv4mcasttest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\salentest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\getloginrtest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\ipv6test.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\ipv6mcasttest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\performancecounter.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\suffix.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\arrayalloc.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\randstest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\strncpystest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\clockgettimetest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\polltest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\wsapolltest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\msgnosignaltest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\tools\ifaddrstest.cpp;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\src\rtptypes.h.in;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\src\rtpconfig.h.in;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\src\rtplibraryversioninternal.h.in;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\cmake\JRTPLIBConfig.cmake.in;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\JRTPLIB\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\jrtplib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\ZERO_CHECK.vcxproj">
+      <Project>{B1F2B71A-A966-39FA-8EF3-32B9B290FB35}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\jrtplib\src\jrtplib-static.vcxproj">
+      <Project>{9AFE91DC-8C4C-37D7-88D1-0B88595C443C}</Project>
+      <Name>jrtplib-static</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

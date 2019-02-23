@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/luckin/luckinsense/MediaServer/jrtplib-3.11.1/examples/CMakeLists.txt
+  CMake does not need to re-run because D:/luckin/luckinsense/MediaServer/jrtplib-3.11.1/build/examples/CMakeFiles/generate.stamp is up-to-date.
+  example8.cpp
+  example8.vcxproj -> D:\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\examples\MinSizeRel\example8.exe

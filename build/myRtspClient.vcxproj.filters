@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\MediaSession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\mpeg_types.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\myRegex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\myRtpTcpSession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\myRtpUdpSession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\myTCPTransmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\nalu_types_h264.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\nalu_types_h265.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\pcmu_types.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\rtspClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\Base64_live555\Base64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\Base64_live555\strDup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\md5\md5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{21C62C71-DEC5-3AA3-9D26-7CB9D04A268D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{70170155-c4de-41f2-a126-527b7980cf10}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\myRtspClient\include\audio_type_base.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\myRtspClient\include\MediaSession.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\myRtspClient\include\mpeg_types.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\myRtspClient\include\myRegex.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\myRtspClient\include\myRtpSession.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\myRtspClient\include\myRtpTcpSession.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\myRtspClient\include\myRtpUdpSession.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\myRtspClient\include\myTCPTransmitter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\myRtspClient\include\nalu_types.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\myRtspClient\include\nalu_types_h264.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\myRtspClient\include\nalu_types_h265.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\myRtspClient\include\pcmu_types.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\myRtspClient\include\rtspClient.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\myRtspClient\include\utils.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

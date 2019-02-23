@@ -1,0 +1,47 @@
+# CMake generation dependency list for this directory.
+D:/luckin/luckinsense/MediaServer/jrtplib-3.11.1/CMakeLists.txt
+D:/luckin/luckinsense/MediaServer/jrtplib-3.11.1/build/CMakeFiles/3.11.1/CMakeSystem.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CMakeSystemSpecificInitialize.cmake
+D:/luckin/luckinsense/MediaServer/jrtplib-3.11.1/build/CMakeFiles/3.11.1/CMakeCCompiler.cmake
+D:/luckin/luckinsense/MediaServer/jrtplib-3.11.1/build/CMakeFiles/3.11.1/CMakeCXXCompiler.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CMakeGenericSystem.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.11/Modules/Platform/Windows.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.11/Modules/Platform/WindowsPaths.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CMakeCInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CMakeLanguageInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.11/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.11/Modules/Platform/Windows-MSVC.cmake
+D:/luckin/luckinsense/MediaServer/jrtplib-3.11.1/build/CMakeFiles/3.11.1/CMakeRCCompiler.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CMakeRCInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CMakeCXXInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CMakeLanguageInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.11/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.11/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.11/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.11/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.11/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.11/Modules/TestBigEndian.cmake
+D:/luckin/luckinsense/MediaServer/jrtplib-3.11.1/cmake/Macros.cmake
+D:/luckin/luckinsense/MediaServer/jrtplib-3.11.1/cmake/FindJThread.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.11/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.11/Modules/FindPackageMessage.cmake
+D:/luckin/luckinsense/MediaServer/jrtplib-3.11.1/cmake/FindLIBSRTP.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.11/Modules/FindPkgConfig.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.11/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.11/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.11/Modules/FindPkgConfig.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.11/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.11/Modules/FindPackageMessage.cmake
+D:/luckin/luckinsense/MediaServer/jrtplib-3.11.1/src/rtptypes.h.in
+D:/luckin/luckinsense/MediaServer/jrtplib-3.11.1/src/rtpconfig.h.in
+D:/luckin/luckinsense/MediaServer/jrtplib-3.11.1/src/rtplibraryversioninternal.h.in
+D:/luckin/luckinsense/MediaServer/jrtplib-3.11.1/cmake/JRTPLIBConfig.cmake.in

@@ -1,0 +1,14 @@
+D:/luckin/luckinsense/MediaServer/jrtplib-3.11.1/build/CMakeFiles/INSTALL.dir
+D:/luckin/luckinsense/MediaServer/jrtplib-3.11.1/build/CMakeFiles/ALL_BUILD.dir
+D:/luckin/luckinsense/MediaServer/jrtplib-3.11.1/build/CMakeFiles/ZERO_CHECK.dir
+D:/luckin/luckinsense/MediaServer/jrtplib-3.11.1/build/src/CMakeFiles/jrtplib-static.dir
+D:/luckin/luckinsense/MediaServer/jrtplib-3.11.1/build/src/CMakeFiles/INSTALL.dir
+D:/luckin/luckinsense/MediaServer/jrtplib-3.11.1/build/examples/CMakeFiles/INSTALL.dir
+D:/luckin/luckinsense/MediaServer/jrtplib-3.11.1/build/examples/CMakeFiles/example1.dir
+D:/luckin/luckinsense/MediaServer/jrtplib-3.11.1/build/examples/CMakeFiles/example2.dir
+D:/luckin/luckinsense/MediaServer/jrtplib-3.11.1/build/examples/CMakeFiles/example3.dir
+D:/luckin/luckinsense/MediaServer/jrtplib-3.11.1/build/examples/CMakeFiles/example4.dir
+D:/luckin/luckinsense/MediaServer/jrtplib-3.11.1/build/examples/CMakeFiles/example5.dir
+D:/luckin/luckinsense/MediaServer/jrtplib-3.11.1/build/examples/CMakeFiles/example6.dir
+D:/luckin/luckinsense/MediaServer/jrtplib-3.11.1/build/examples/CMakeFiles/example7.dir
+D:/luckin/luckinsense/MediaServer/jrtplib-3.11.1/build/examples/CMakeFiles/example8.dir

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\CMakeFiles\eb34ea13c01e82151c202d9455eab336\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D04FBD65-A906-361B-BCFF-74EFA6C480BE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

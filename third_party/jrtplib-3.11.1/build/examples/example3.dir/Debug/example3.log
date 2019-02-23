@@ -1,0 +1,10 @@
+﻿  Building Custom Rule D:/luckin/luckinsense/MediaServer/jrtplib-3.11.1/examples/CMakeLists.txt
+  CMake does not need to re-run because D:/luckin/luckinsense/MediaServer/jrtplib-3.11.1/build/examples/CMakeFiles/generate.stamp is up-to-date.
+  example3.cpp
+d:\luckin\luckinsense\mediaserver\jrtplib-3.11.1\examples\example3.cpp(69): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\winsock2.h(1848): note: 参见“inet_ntoa”的声明
+d:\luckin\luckinsense\mediaserver\jrtplib-3.11.1\examples\example3.cpp(100): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\winsock2.h(1848): note: 参见“inet_ntoa”的声明
+d:\luckin\luckinsense\mediaserver\jrtplib-3.11.1\examples\example3.cpp(133): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\winsock2.h(1848): note: 参见“inet_ntoa”的声明
+  example3.vcxproj -> D:\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\examples\Debug\example3.exe

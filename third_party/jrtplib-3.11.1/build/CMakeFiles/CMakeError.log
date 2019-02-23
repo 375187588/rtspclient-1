@@ -1,0 +1,152 @@
+Determining if the include file sys/filio.h exists failed with the following output:
+Change Dir: D:/luckin/luckinsense/MediaServer/jrtplib-3.11.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_ef5b0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.8.166+gd4e8d81a88
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/11/12 10:15:00。
+节点 1 上的项目“D:\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_ef5b0.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_ef5b0.dir\Debug\”。
+  正在创建目录“D:\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_ef5b0.dir\Debug\cmTC_ef5b0.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_ef5b0.dir\Debug\cmTC_ef5b0.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ef5b0.dir\Debug\\" /Fd"cmTC_ef5b0.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "D:\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.15.26726 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ef5b0.dir\Debug\\" /Fd"cmTC_ef5b0.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "D:\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx"
+  CheckIncludeFile.cxx
+  
+d:\luckin\luckinsense\mediaserver\jrtplib-3.11.1\build\cmakefiles\cmaketmp\checkincludefile.cxx(1): fatal error C1083: 无法打开包括文件: “sys/filio.h”: No such file or directory [D:\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_ef5b0.vcxproj]
+已完成生成项目“D:\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_ef5b0.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_ef5b0.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  d:\luckin\luckinsense\mediaserver\jrtplib-3.11.1\build\cmakefiles\cmaketmp\checkincludefile.cxx(1): fatal error C1083: 无法打开包括文件: “sys/filio.h”: No such file or directory [D:\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_ef5b0.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.90
+
+
+Determining if the include file sys/sockio.h exists failed with the following output:
+Change Dir: D:/luckin/luckinsense/MediaServer/jrtplib-3.11.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_b5b65.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.8.166+gd4e8d81a88
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/11/12 10:15:03。
+节点 1 上的项目“D:\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_b5b65.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_b5b65.dir\Debug\”。
+  正在创建目录“D:\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_b5b65.dir\Debug\cmTC_b5b65.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_b5b65.dir\Debug\cmTC_b5b65.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b5b65.dir\Debug\\" /Fd"cmTC_b5b65.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "D:\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.15.26726 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b5b65.dir\Debug\\" /Fd"cmTC_b5b65.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "D:\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx"
+  CheckIncludeFile.cxx
+  
+d:\luckin\luckinsense\mediaserver\jrtplib-3.11.1\build\cmakefiles\cmaketmp\checkincludefile.cxx(1): fatal error C1083: 无法打开包括文件: “sys/sockio.h”: No such file or directory [D:\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_b5b65.vcxproj]
+已完成生成项目“D:\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_b5b65.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_b5b65.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  d:\luckin\luckinsense\mediaserver\jrtplib-3.11.1\build\cmakefiles\cmaketmp\checkincludefile.cxx(1): fatal error C1083: 无法打开包括文件: “sys/sockio.h”: No such file or directory [D:\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_b5b65.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:01.27
+
+
+Determining if the include file ifaddrs.h exists failed with the following output:
+Change Dir: D:/luckin/luckinsense/MediaServer/jrtplib-3.11.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_985df.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.8.166+gd4e8d81a88
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/11/12 10:15:06。
+节点 1 上的项目“D:\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_985df.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_985df.dir\Debug\”。
+  正在创建目录“D:\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_985df.dir\Debug\cmTC_985df.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_985df.dir\Debug\cmTC_985df.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_985df.dir\Debug\\" /Fd"cmTC_985df.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "D:\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.15.26726 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_985df.dir\Debug\\" /Fd"cmTC_985df.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "D:\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx"
+  CheckIncludeFile.cxx
+  
+d:\luckin\luckinsense\mediaserver\jrtplib-3.11.1\build\cmakefiles\cmaketmp\checkincludefile.cxx(1): fatal error C1083: 无法打开包括文件: “ifaddrs.h”: No such file or directory [D:\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_985df.vcxproj]
+已完成生成项目“D:\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_985df.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_985df.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  d:\luckin\luckinsense\mediaserver\jrtplib-3.11.1\build\cmakefiles\cmaketmp\checkincludefile.cxx(1): fatal error C1083: 无法打开包括文件: “ifaddrs.h”: No such file or directory [D:\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_985df.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.98
+
+
+Determining if the include file netinet/in.h exists failed with the following output:
+Change Dir: D:/luckin/luckinsense/MediaServer/jrtplib-3.11.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_4e2e8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.8.166+gd4e8d81a88
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/11/12 10:15:09。
+节点 1 上的项目“D:\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_4e2e8.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_4e2e8.dir\Debug\”。
+  正在创建目录“D:\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_4e2e8.dir\Debug\cmTC_4e2e8.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_4e2e8.dir\Debug\cmTC_4e2e8.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4e2e8.dir\Debug\\" /Fd"cmTC_4e2e8.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "D:\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.15.26726 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4e2e8.dir\Debug\\" /Fd"cmTC_4e2e8.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "D:\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx"
+  CheckIncludeFile.cxx
+  
+d:\luckin\luckinsense\mediaserver\jrtplib-3.11.1\build\cmakefiles\cmaketmp\checkincludefile.cxx(1): fatal error C1083: 无法打开包括文件: “netinet/in.h”: No such file or directory [D:\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_4e2e8.vcxproj]
+已完成生成项目“D:\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_4e2e8.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_4e2e8.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  d:\luckin\luckinsense\mediaserver\jrtplib-3.11.1\build\cmakefiles\cmaketmp\checkincludefile.cxx(1): fatal error C1083: 无法打开包括文件: “netinet/in.h”: No such file or directory [D:\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\CMakeFiles\CMakeTmp\cmTC_4e2e8.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:01.00
+
+

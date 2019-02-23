@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\CMakeFiles\fbb62c2c198b52dfd7fd37558aaa6920\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D04FBD65-A906-361B-BCFF-74EFA6C480BE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

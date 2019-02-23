@@ -1,0 +1,637 @@
+The system is: Windows - 10.0.17763 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+���� .NET Framework �� Microsoft (R) ��������汾 15.9.20+g88f5fadfbe
+��Ȩ����(C) Microsoft Corporation����������Ȩ����
+
+��������ʱ��Ϊ 2018/11/21 11:17:45��
+�ڵ� 1 �ϵ���Ŀ��D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\3.11.1\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)��
+PrepareForBuild:
+  ���ڴ���Ŀ¼��Debug\����
+  ���ڴ���Ŀ¼��Debug\CompilerIdC.tlog\����
+InitializeBuildStatus:
+  ���ڴ�����Debug\CompilerIdC.tlog\unsuccessfulbuild������Ϊ��ָ����AlwaysCreate����
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\3.11.1\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe
+FinalizeBuildStatus:
+  ����ɾ���ļ���Debug\CompilerIdC.tlog\unsuccessfulbuild����
+  ���ڶԡ�Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate��ִ�� Touch ����
+�����������Ŀ��D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\3.11.1\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)�Ĳ�����
+
+�ѳɹ����ɡ�
+    0 ������
+    0 ������
+
+����ʱ�� 00:00:01.04
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/3.11.1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+���� .NET Framework �� Microsoft (R) ��������汾 15.9.20+g88f5fadfbe
+��Ȩ����(C) Microsoft Corporation����������Ȩ����
+
+��������ʱ��Ϊ 2018/11/21 11:17:46��
+�ڵ� 1 �ϵ���Ŀ��D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\3.11.1\CompilerIdCXX\CompilerIdCXX.vcxproj��(Ĭ��Ŀ��)��
+PrepareForBuild:
+  ���ڴ���Ŀ¼��Debug\����
+  ���ڴ���Ŀ¼��Debug\CompilerIdCXX.tlog\����
+InitializeBuildStatus:
+  ���ڴ�����Debug\CompilerIdCXX.tlog\unsuccessfulbuild������Ϊ��ָ����AlwaysCreate����
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\3.11.1\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe
+FinalizeBuildStatus:
+  ����ɾ���ļ���Debug\CompilerIdCXX.tlog\unsuccessfulbuild����
+  ���ڶԡ�Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate��ִ�� Touch ����
+�����������Ŀ��D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\3.11.1\CompilerIdCXX\CompilerIdCXX.vcxproj��(Ĭ��Ŀ��)�Ĳ�����
+
+�ѳɹ����ɡ�
+    0 ������
+    0 ������
+
+����ʱ�� 00:00:00.80
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/3.11.1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_d6e77.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.20+g88f5fadfbe
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/11/21 11:17:47。
+节点 1 上的项目“D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\cmTC_d6e77.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_d6e77.dir\Debug\”。
+  正在创建目录“D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_d6e77.dir\Debug\cmTC_d6e77.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_d6e77.dir\Debug\cmTC_d6e77.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d6e77.dir\Debug\\" /Fd"cmTC_d6e77.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27023.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d6e77.dir\Debug\\" /Fd"cmTC_d6e77.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  testCCompiler.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_d6e77.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_d6e77.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_d6e77.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_d6e77.dir\Debug\testCCompiler.obj
+  cmTC_d6e77.vcxproj -> D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_d6e77.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_d6e77.dir\Debug\cmTC_d6e77.tlog\unsuccessfulbuild”。
+  正在对“cmTC_d6e77.dir\Debug\cmTC_d6e77.tlog\cmTC_d6e77.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\cmTC_d6e77.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.05
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_d78d0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.20+g88f5fadfbe
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/11/21 11:17:49。
+节点 1 上的项目“D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\cmTC_d78d0.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_d78d0.dir\Debug\”。
+  正在创建目录“D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_d78d0.dir\Debug\cmTC_d78d0.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_d78d0.dir\Debug\cmTC_d78d0.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d78d0.dir\Debug\\" /Fd"cmTC_d78d0.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "D:\software\CMake\share\cmake-3.11\Modules\CMakeCCompilerABI.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27023.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d78d0.dir\Debug\\" /Fd"cmTC_d78d0.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "D:\software\CMake\share\cmake-3.11\Modules\CMakeCCompilerABI.c"
+  CMakeCCompilerABI.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_d78d0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_d78d0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_d78d0.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_d78d0.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_d78d0.vcxproj -> D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_d78d0.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_d78d0.dir\Debug\cmTC_d78d0.tlog\unsuccessfulbuild”。
+  正在对“cmTC_d78d0.dir\Debug\cmTC_d78d0.tlog\cmTC_d78d0.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\cmTC_d78d0.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.78
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_3167f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.20+g88f5fadfbe
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/11/21 11:17:50。
+节点 1 上的项目“D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\cmTC_3167f.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_3167f.dir\Debug\”。
+  正在创建目录“D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_3167f.dir\Debug\cmTC_3167f.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_3167f.dir\Debug\cmTC_3167f.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3167f.dir\Debug\\" /Fd"cmTC_3167f.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27023.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3167f.dir\Debug\\" /Fd"cmTC_3167f.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  testCXXCompiler.cxx
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_3167f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_3167f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_3167f.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_3167f.dir\Debug\testCXXCompiler.obj
+  cmTC_3167f.vcxproj -> D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_3167f.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_3167f.dir\Debug\cmTC_3167f.tlog\unsuccessfulbuild”。
+  正在对“cmTC_3167f.dir\Debug\cmTC_3167f.tlog\cmTC_3167f.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\cmTC_3167f.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.81
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_fbe9d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.20+g88f5fadfbe
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/11/21 11:17:51。
+节点 1 上的项目“D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\cmTC_fbe9d.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_fbe9d.dir\Debug\”。
+  正在创建目录“D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_fbe9d.dir\Debug\cmTC_fbe9d.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_fbe9d.dir\Debug\cmTC_fbe9d.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fbe9d.dir\Debug\\" /Fd"cmTC_fbe9d.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "D:\software\CMake\share\cmake-3.11\Modules\CMakeCXXCompilerABI.cpp"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27023.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fbe9d.dir\Debug\\" /Fd"cmTC_fbe9d.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "D:\software\CMake\share\cmake-3.11\Modules\CMakeCXXCompilerABI.cpp"
+  CMakeCXXCompilerABI.cpp
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_fbe9d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_fbe9d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_fbe9d.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_fbe9d.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_fbe9d.vcxproj -> D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_fbe9d.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_fbe9d.dir\Debug\cmTC_fbe9d.tlog\unsuccessfulbuild”。
+  正在对“cmTC_fbe9d.dir\Debug\cmTC_fbe9d.tlog\cmTC_fbe9d.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\cmTC_fbe9d.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.81
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_8f115.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.20+g88f5fadfbe
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/11/21 11:17:52。
+节点 1 上的项目“D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\cmTC_8f115.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_8f115.dir\Debug\”。
+  正在创建目录“D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_8f115.dir\Debug\cmTC_8f115.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_8f115.dir\Debug\cmTC_8f115.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8f115.dir\Debug\\" /Fd"cmTC_8f115.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\feature_tests.cxx"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27023.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8f115.dir\Debug\\" /Fd"cmTC_8f115.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\feature_tests.cxx"
+  feature_tests.cxx
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_8f115.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_8f115.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_8f115.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_8f115.dir\Debug\feature_tests.obj
+  cmTC_8f115.vcxproj -> D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_8f115.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_8f115.dir\Debug\cmTC_8f115.tlog\unsuccessfulbuild”。
+  正在对“cmTC_8f115.dir\Debug\cmTC_8f115.tlog\cmTC_8f115.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\cmTC_8f115.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.80
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_3834f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.20+g88f5fadfbe
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/11/21 11:23:30。
+节点 1 上的项目“D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\cmTC_3834f.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_3834f.dir\Debug\”。
+  正在创建目录“D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_3834f.dir\Debug\cmTC_3834f.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_3834f.dir\Debug\cmTC_3834f.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3834f.dir\Debug\\" /Fd"cmTC_3834f.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27023.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3834f.dir\Debug\\" /Fd"cmTC_3834f.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_3834f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_3834f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_3834f.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_3834f.dir\Debug\CheckIncludeFile.obj
+  cmTC_3834f.vcxproj -> D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_3834f.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_3834f.dir\Debug\cmTC_3834f.tlog\unsuccessfulbuild”。
+  正在对“cmTC_3834f.dir\Debug\cmTC_3834f.tlog\cmTC_3834f.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\cmTC_3834f.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.80
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_fb538.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.20+g88f5fadfbe
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/11/21 11:23:31。
+节点 1 上的项目“D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\cmTC_fb538.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_fb538.dir\Debug\”。
+  正在创建目录“D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_fb538.dir\Debug\cmTC_fb538.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_fb538.dir\Debug\cmTC_fb538.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fb538.dir\Debug\\" /Fd"cmTC_fb538.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27023.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fb538.dir\Debug\\" /Fd"cmTC_fb538.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_fb538.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_fb538.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_fb538.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_fb538.dir\Debug\CheckIncludeFile.obj
+  cmTC_fb538.vcxproj -> D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_fb538.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_fb538.dir\Debug\cmTC_fb538.tlog\unsuccessfulbuild”。
+  正在对“cmTC_fb538.dir\Debug\cmTC_fb538.tlog\cmTC_fb538.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\cmTC_fb538.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.76
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_3fb9a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.20+g88f5fadfbe
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/11/21 11:23:32。
+节点 1 上的项目“D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\cmTC_3fb9a.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_3fb9a.dir\Debug\”。
+  正在创建目录“D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_3fb9a.dir\Debug\cmTC_3fb9a.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_3fb9a.dir\Debug\cmTC_3fb9a.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3fb9a.dir\Debug\\" /Fd"cmTC_3fb9a.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27023.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3fb9a.dir\Debug\\" /Fd"cmTC_3fb9a.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_3fb9a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_3fb9a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_3fb9a.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_3fb9a.dir\Debug\CheckIncludeFile.obj
+  cmTC_3fb9a.vcxproj -> D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_3fb9a.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_3fb9a.dir\Debug\cmTC_3fb9a.tlog\unsuccessfulbuild”。
+  正在对“cmTC_3fb9a.dir\Debug\cmTC_3fb9a.tlog\cmTC_3fb9a.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\cmTC_3fb9a.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.81
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_00625.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.20+g88f5fadfbe
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/11/21 11:23:33。
+节点 1 上的项目“D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\cmTC_00625.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_00625.dir\Debug\”。
+  正在创建目录“D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_00625.dir\Debug\cmTC_00625.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_00625.dir\Debug\cmTC_00625.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_00625.dir\Debug\\" /Fd"cmTC_00625.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27023.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_00625.dir\Debug\\" /Fd"cmTC_00625.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c"
+  CMAKE_SIZEOF_UNSIGNED_SHORT.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_00625.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_00625.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_00625.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_00625.dir\Debug\CMAKE_SIZEOF_UNSIGNED_SHORT.obj
+  cmTC_00625.vcxproj -> D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_00625.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_00625.dir\Debug\cmTC_00625.tlog\unsuccessfulbuild”。
+  正在对“cmTC_00625.dir\Debug\cmTC_00625.tlog\cmTC_00625.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\cmTC_00625.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.80
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_652cb.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.20+g88f5fadfbe
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/11/21 11:23:34。
+节点 1 上的项目“D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\cmTC_652cb.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_652cb.dir\Debug\”。
+  正在创建目录“D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_652cb.dir\Debug\cmTC_652cb.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_652cb.dir\Debug\cmTC_652cb.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_652cb.dir\Debug\\" /Fd"cmTC_652cb.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\TestEndianess.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27023.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_652cb.dir\Debug\\" /Fd"cmTC_652cb.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\TestEndianess.c"
+  TestEndianess.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_652cb.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_652cb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_652cb.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_652cb.dir\Debug\TestEndianess.obj
+  cmTC_652cb.vcxproj -> D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_652cb.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_652cb.dir\Debug\cmTC_652cb.tlog\unsuccessfulbuild”。
+  正在对“cmTC_652cb.dir\Debug\cmTC_652cb.tlog\cmTC_652cb.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\cmTC_652cb.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.80
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing C++ SOURCE FILE Test JRTPLIB_SNPRINTF_S succeeded with the following output:
+Change Dir: D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_b3e35.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.20+g88f5fadfbe
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/11/21 11:23:56。
+节点 1 上的项目“D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\cmTC_b3e35.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_b3e35.dir\Debug\”。
+  正在创建目录“D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_b3e35.dir\Debug\cmTC_b3e35.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_b3e35.dir\Debug\cmTC_b3e35.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D JRTPLIB_SNPRINTF_S /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b3e35.dir\Debug\\" /Fd"cmTC_b3e35.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\src.cxx"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27023.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D JRTPLIB_SNPRINTF_S /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b3e35.dir\Debug\\" /Fd"cmTC_b3e35.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\src.cxx"
+  src.cxx
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_b3e35.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_b3e35.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_b3e35.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_b3e35.dir\Debug\src.obj
+  cmTC_b3e35.vcxproj -> D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_b3e35.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_b3e35.dir\Debug\cmTC_b3e35.tlog\unsuccessfulbuild”。
+  正在对“cmTC_b3e35.dir\Debug\cmTC_b3e35.tlog\cmTC_b3e35.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\cmTC_b3e35.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.36
+
+Source file was:
+#include <windows.h>
+#include <stdio.h>
+int main(void) { char s[1024]; _snprintf_s(s, 1024,"%d", 10);
+  return 0; }
+Performing C++ SOURCE FILE Test JRTPLIB_STDINT succeeded with the following output:
+Change Dir: D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_e5155.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.20+g88f5fadfbe
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/11/21 11:23:58。
+节点 1 上的项目“D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\cmTC_e5155.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_e5155.dir\Debug\”。
+  正在创建目录“D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_e5155.dir\Debug\cmTC_e5155.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_e5155.dir\Debug\cmTC_e5155.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D JRTPLIB_STDINT /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e5155.dir\Debug\\" /Fd"cmTC_e5155.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\src.cxx"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27023.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D JRTPLIB_STDINT /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e5155.dir\Debug\\" /Fd"cmTC_e5155.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\src.cxx"
+  src.cxx
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_e5155.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_e5155.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_e5155.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_e5155.dir\Debug\src.obj
+  cmTC_e5155.vcxproj -> D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_e5155.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_e5155.dir\Debug\cmTC_e5155.tlog\unsuccessfulbuild”。
+  正在对“cmTC_e5155.dir\Debug\cmTC_e5155.tlog\cmTC_e5155.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\CMakeTmp\cmTC_e5155.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.81
+
+Source file was:
+#include <stdint.h>
+#include <sys/types.h>
+int main(void) { size_t a = 0 ; size_t b = a; uint32_t x = 0; uint32_t y = x; return 0; }

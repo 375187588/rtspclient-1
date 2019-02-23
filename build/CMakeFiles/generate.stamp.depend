@@ -1,0 +1,25 @@
+# CMake generation dependency list for this directory.
+D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/myRtspClient/CMakeLists.txt
+D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/3.11.1/CMakeSystem.cmake
+D:/software/CMake/share/cmake-3.11/Modules/CMakeSystemSpecificInitialize.cmake
+D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/3.11.1/CMakeCCompiler.cmake
+D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/3.11.1/CMakeCXXCompiler.cmake
+D:/software/CMake/share/cmake-3.11/Modules/CMakeSystemSpecificInformation.cmake
+D:/software/CMake/share/cmake-3.11/Modules/CMakeGenericSystem.cmake
+D:/software/CMake/share/cmake-3.11/Modules/CMakeInitializeConfigs.cmake
+D:/software/CMake/share/cmake-3.11/Modules/Platform/Windows.cmake
+D:/software/CMake/share/cmake-3.11/Modules/Platform/WindowsPaths.cmake
+D:/software/CMake/share/cmake-3.11/Modules/CMakeCInformation.cmake
+D:/software/CMake/share/cmake-3.11/Modules/CMakeLanguageInformation.cmake
+D:/software/CMake/share/cmake-3.11/Modules/Platform/Windows-MSVC-C.cmake
+D:/software/CMake/share/cmake-3.11/Modules/Platform/Windows-MSVC.cmake
+D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/3.11.1/CMakeRCCompiler.cmake
+D:/software/CMake/share/cmake-3.11/Modules/CMakeRCInformation.cmake
+D:/software/CMake/share/cmake-3.11/Modules/CMakeCommonLanguageInclude.cmake
+D:/software/CMake/share/cmake-3.11/Modules/CMakeCXXInformation.cmake
+D:/software/CMake/share/cmake-3.11/Modules/CMakeLanguageInformation.cmake
+D:/software/CMake/share/cmake-3.11/Modules/Compiler/MSVC-CXX.cmake
+D:/software/CMake/share/cmake-3.11/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+D:/software/CMake/share/cmake-3.11/Modules/Platform/Windows-MSVC-CXX.cmake
+D:/software/CMake/share/cmake-3.11/Modules/Platform/Windows-MSVC.cmake
+D:/software/CMake/share/cmake-3.11/Modules/CMakeCommonLanguageInclude.cmake

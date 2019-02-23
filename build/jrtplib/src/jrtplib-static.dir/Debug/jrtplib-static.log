@@ -1,0 +1,75 @@
+﻿  Building Custom Rule D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/third_party/JRTPLIB/src/CMakeLists.txt
+  CMake does not need to re-run because D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/jrtplib/src/CMakeFiles/generate.stamp is up-to-date.
+  rtcpapppacket.cpp
+  rtcpbyepacket.cpp
+  rtcpcompoundpacket.cpp
+  rtcpcompoundpacketbuilder.cpp
+d:\work\luckin\luckinsense\rtsp\myrtspclient-1.3.0\third_party\jrtplib\src\rtcpcompoundpacketbuilder.cpp(366): warning C4267: “参数”: 从“size_t”转换到“uint8_t”，可能丢失数据
+d:\work\luckin\luckinsense\rtsp\myrtspclient-1.3.0\third_party\jrtplib\src\rtcpcompoundpacketbuilder.cpp(382): warning C4267: “=”: 从“size_t”转换到“uint8_t”，可能丢失数据
+  rtcppacket.cpp
+  rtcppacketbuilder.cpp
+d:\work\luckin\luckinsense\rtsp\myrtspclient-1.3.0\third_party\jrtplib\src\rtcppacketbuilder.cpp(180): warning C4267: “参数”: 从“size_t”转换到“uint8_t”，可能丢失数据
+d:\work\luckin\luckinsense\rtsp\myrtspclient-1.3.0\third_party\jrtplib\src\rtcppacketbuilder.cpp(519): warning C4267: “参数”: 从“size_t”转换到“uint8_t”，可能丢失数据
+d:\work\luckin\luckinsense\rtsp\myrtspclient-1.3.0\third_party\jrtplib\src\rtcppacketbuilder.cpp(536): warning C4267: “参数”: 从“size_t”转换到“uint8_t”，可能丢失数据
+d:\work\luckin\luckinsense\rtsp\myrtspclient-1.3.0\third_party\jrtplib\src\rtcppacketbuilder.cpp(553): warning C4267: “参数”: 从“size_t”转换到“uint8_t”，可能丢失数据
+d:\work\luckin\luckinsense\rtsp\myrtspclient-1.3.0\third_party\jrtplib\src\rtcppacketbuilder.cpp(570): warning C4267: “参数”: 从“size_t”转换到“uint8_t”，可能丢失数据
+d:\work\luckin\luckinsense\rtsp\myrtspclient-1.3.0\third_party\jrtplib\src\rtcppacketbuilder.cpp(587): warning C4267: “参数”: 从“size_t”转换到“uint8_t”，可能丢失数据
+d:\work\luckin\luckinsense\rtsp\myrtspclient-1.3.0\third_party\jrtplib\src\rtcppacketbuilder.cpp(604): warning C4267: “参数”: 从“size_t”转换到“uint8_t”，可能丢失数据
+d:\work\luckin\luckinsense\rtsp\myrtspclient-1.3.0\third_party\jrtplib\src\rtcppacketbuilder.cpp(708): warning C4267: “参数”: 从“size_t”转换到“uint8_t”，可能丢失数据
+d:\work\luckin\luckinsense\rtsp\myrtspclient-1.3.0\third_party\jrtplib\src\rtcppacketbuilder.cpp(720): warning C4267: “参数”: 从“size_t”转换到“uint8_t”，可能丢失数据
+  rtcprrpacket.cpp
+  rtcpscheduler.cpp
+  rtcpsdesinfo.cpp
+  rtcpsdespacket.cpp
+  rtcpsrpacket.cpp
+  rtpcollisionlist.cpp
+  rtpdebug.cpp
+  rtperrors.cpp
+  rtpinternalsourcedata.cpp
+  rtpipv4address.cpp
+  rtpipv6address.cpp
+  rtpipv4destination.cpp
+  rtpipv6destination.cpp
+  rtplibraryversion.cpp
+  正在生成代码...
+  正在编译...
+  rtppacket.cpp
+  rtppacketbuilder.cpp
+  rtppollthread.cpp
+  rtprandom.cpp
+  rtprandomrand48.cpp
+  rtprandomrands.cpp
+  rtprandomurandom.cpp
+d:\work\luckin\luckinsense\rtsp\myrtspclient-1.3.0\third_party\jrtplib\src\rtprandomurandom.cpp(57): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+  rtpsession.cpp
+d:\work\luckin\luckinsense\rtsp\myrtspclient-1.3.0\third_party\jrtplib\src\rtpsession.cpp(748): warning C4267: “参数”: 从“size_t”转换到“uint8_t”，可能丢失数据
+  rtpsessionparams.cpp
+  rtpsessionsources.cpp
+  rtpsourcedata.cpp
+d:\work\luckin\luckinsense\rtsp\myrtspclient-1.3.0\third_party\jrtplib\src\rtpsourcedata.cpp(219): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+d:\work\luckin\luckinsense\rtsp\myrtspclient-1.3.0\third_party\jrtplib\src\rtpsourcedata.cpp(233): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  rtpsources.cpp
+  rtptimeutilities.cpp
+  rtpudpv4transmitter.cpp
+d:\work\luckin\luckinsense\rtsp\myrtspclient-1.3.0\third_party\jrtplib\src\rtpudpv4transmitter.cpp(652): warning C4996: 'gethostbyaddr': Use getnameinfo() or GetNameInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\winsock2.h(2196): note: 参见“gethostbyaddr”的声明
+d:\work\luckin\luckinsense\rtsp\myrtspclient-1.3.0\third_party\jrtplib\src\rtpudpv4transmitter.cpp(1912): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\winsock2.h(2218): note: 参见“gethostbyname”的声明
+  rtpudpv6transmitter.cpp
+d:\work\luckin\luckinsense\rtsp\myrtspclient-1.3.0\third_party\jrtplib\src\rtpudpv6transmitter.cpp(425): warning C4996: 'gethostbyaddr': Use getnameinfo() or GetNameInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\winsock2.h(2196): note: 参见“gethostbyaddr”的声明
+  rtpbyteaddress.cpp
+  rtpexternaltransmitter.cpp
+d:\work\luckin\luckinsense\rtsp\myrtspclient-1.3.0\third_party\jrtplib\src\rtpexternaltransmitter.cpp(230): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+  rtpsecuresession.cpp
+  rtpabortdescriptors.cpp
+d:\work\luckin\luckinsense\rtsp\myrtspclient-1.3.0\third_party\jrtplib\src\rtpabortdescriptors.cpp(113): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\winsock2.h(1830): note: 参见“inet_addr”的声明
+  rtptcpaddress.cpp
+  正在生成代码...
+  正在编译...
+  rtptcptransmitter.cpp
+  正在生成代码...
+  jrtplib-static.vcxproj -> D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\jrtplib\src\Debug\jrtplib_d.lib

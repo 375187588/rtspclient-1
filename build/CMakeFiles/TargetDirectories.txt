@@ -1,0 +1,8 @@
+D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/myRtspClient.dir
+D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/INSTALL.dir
+D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/ALL_BUILD.dir
+D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/ZERO_CHECK.dir
+D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/jrtplib/CMakeFiles/INSTALL.dir
+D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/jrtplib/CMakeFiles/ALL_BUILD.dir
+D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/jrtplib/src/CMakeFiles/jrtplib-static.dir
+D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/jrtplib/src/CMakeFiles/INSTALL.dir

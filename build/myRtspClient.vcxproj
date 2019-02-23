@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6BB0EEDF-1757-3E1E-8C56-1F3180252F45}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>myRtspClient</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">myRtspClient.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">myRtspClient</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">myRtspClient.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">myRtspClient</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">myRtspClient.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">myRtspClient</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">myRtspClient.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">myRtspClient</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\..\third_party\Base64_live555\include;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\..\third_party\md5\include;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\include;D:\work\luckin\luckinsense\3dparty\pthread\include;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\regex\regex-2.7-bin\include;D:\work\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\src;D:\work\luckin\luckinsense\MediaServer\jrtplib-3.11.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";myRtspClient_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";myRtspClient_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\..\third_party\Base64_live555\include;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\..\third_party\md5\include;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\..\third_party\JRTPLIB\src;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\include;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\jrtplib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\..\third_party\Base64_live555\include;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\..\third_party\md5\include;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\..\third_party\JRTPLIB\src;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\include;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\jrtplib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>regex.lib;jrtplib_d.lib;Ws2_32.lib;pthreadVC2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\work\luckin\luckinsense\MediaServer\jrtplib-3.11.1\build\src\Debug;D:\work\luckin\luckinsense\MediaServer\libnemesi\3dparty\pthread\lib\x86;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\regex\regex-2.7-bin\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/Debug/myRtspClient.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/Debug/myRtspClient.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\..\third_party\Base64_live555\include;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\..\third_party\md5\include;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\..\third_party\JRTPLIB\src;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\include;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\jrtplib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";myRtspClient_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";myRtspClient_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\..\third_party\Base64_live555\include;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\..\third_party\md5\include;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\..\third_party\JRTPLIB\src;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\include;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\jrtplib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\..\third_party\Base64_live555\include;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\..\third_party\md5\include;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\..\third_party\JRTPLIB\src;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\include;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\jrtplib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>jrtplib-shared.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/Release/myRtspClient.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/Release/myRtspClient.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\..\third_party\Base64_live555\include;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\..\third_party\md5\include;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\..\third_party\JRTPLIB\src;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\include;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\jrtplib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";myRtspClient_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";myRtspClient_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\..\third_party\Base64_live555\include;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\..\third_party\md5\include;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\..\third_party\JRTPLIB\src;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\include;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\jrtplib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\..\third_party\Base64_live555\include;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\..\third_party\md5\include;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\..\third_party\JRTPLIB\src;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\include;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\jrtplib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>jrtplib-shared.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/MinSizeRel/myRtspClient.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/MinSizeRel/myRtspClient.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\..\third_party\Base64_live555\include;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\..\third_party\md5\include;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\..\third_party\JRTPLIB\src;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\include;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\jrtplib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";myRtspClient_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";myRtspClient_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\..\third_party\Base64_live555\include;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\..\third_party\md5\include;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\..\third_party\JRTPLIB\src;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\include;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\jrtplib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\..\third_party\Base64_live555\include;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\..\third_party\md5\include;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\..\third_party\JRTPLIB\src;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\include;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\jrtplib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>jrtplib-shared.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/RelWithDebInfo/myRtspClient.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/RelWithDebInfo/myRtspClient.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/myRtspClient/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\software\CMake\bin\cmake.exe -HD:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/myRtspClient -BD:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build --check-stamp-file D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/myRtspClient/CMakeLists.txt;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\CMakeLists.txt;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\3.11.1\CMakeSystem.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\3.11.1\CMakeCCompiler.cmake;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\3.11.1\CMakeCXXCompiler.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;D:\software\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;D:\software\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;D:\software\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;D:\software\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\3.11.1\CMakeRCCompiler.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;D:\software\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;D:\software\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\software\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;D:\software\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/myRtspClient/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\software\CMake\bin\cmake.exe -HD:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/myRtspClient -BD:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build --check-stamp-file D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/myRtspClient/CMakeLists.txt;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\CMakeLists.txt;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\3.11.1\CMakeSystem.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\3.11.1\CMakeCCompiler.cmake;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\3.11.1\CMakeCXXCompiler.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;D:\software\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;D:\software\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;D:\software\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;D:\software\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\3.11.1\CMakeRCCompiler.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;D:\software\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;D:\software\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\software\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;D:\software\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/myRtspClient/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\software\CMake\bin\cmake.exe -HD:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/myRtspClient -BD:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build --check-stamp-file D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/myRtspClient/CMakeLists.txt;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\CMakeLists.txt;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\3.11.1\CMakeSystem.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\3.11.1\CMakeCCompiler.cmake;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\3.11.1\CMakeCXXCompiler.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;D:\software\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;D:\software\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;D:\software\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;D:\software\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\3.11.1\CMakeRCCompiler.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;D:\software\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;D:\software\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\software\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;D:\software\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/myRtspClient/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\software\CMake\bin\cmake.exe -HD:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/myRtspClient -BD:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build --check-stamp-file D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/work/luckin/luckinsense/RTSP/myRtspClient-1.3.0/myRtspClient/CMakeLists.txt;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\CMakeLists.txt;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\3.11.1\CMakeSystem.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\3.11.1\CMakeCCompiler.cmake;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\3.11.1\CMakeCXXCompiler.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;D:\software\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;D:\software\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;D:\software\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;D:\software\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\3.11.1\CMakeRCCompiler.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;D:\software\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;D:\software\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\software\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;D:\software\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;D:\software\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\MediaSession.cpp" />
+    <ClCompile Include="D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\mpeg_types.cpp" />
+    <ClCompile Include="D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\myRegex.cpp" />
+    <ClCompile Include="D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\myRtpTcpSession.cpp" />
+    <ClCompile Include="D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\myRtpUdpSession.cpp" />
+    <ClCompile Include="D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\myTCPTransmitter.cpp" />
+    <ClCompile Include="D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\nalu_types_h264.cpp" />
+    <ClCompile Include="D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\nalu_types_h265.cpp" />
+    <ClCompile Include="D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\pcmu_types.cpp" />
+    <ClCompile Include="D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\rtspClient.cpp" />
+    <ClCompile Include="D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\myRtspClient\utils.cpp" />
+    <ClCompile Include="D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\Base64_live555\Base64.cpp" />
+    <ClCompile Include="D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\Base64_live555\strDup.cpp" />
+    <ClCompile Include="D:\work\luckin\luckinsense\RTSP\myRtspClient-1.3.0\third_party\md5\md5.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\myRtspClient\include\audio_type_base.h" />
+    <ClInclude Include="..\myRtspClient\include\MediaSession.h" />
+    <ClInclude Include="..\myRtspClient\include\mpeg_types.h" />
+    <ClInclude Include="..\myRtspClient\include\myRegex.h" />
+    <ClInclude Include="..\myRtspClient\include\myRtpSession.h" />
+    <ClInclude Include="..\myRtspClient\include\myRtpTcpSession.h" />
+    <ClInclude Include="..\myRtspClient\include\myRtpUdpSession.h" />
+    <ClInclude Include="..\myRtspClient\include\myTCPTransmitter.h" />
+    <ClInclude Include="..\myRtspClient\include\nalu_types.h" />
+    <ClInclude Include="..\myRtspClient\include\nalu_types_h264.h" />
+    <ClInclude Include="..\myRtspClient\include\nalu_types_h265.h" />
+    <ClInclude Include="..\myRtspClient\include\pcmu_types.h" />
+    <ClInclude Include="..\myRtspClient\include\rtspClient.h" />
+    <ClInclude Include="..\myRtspClient\include\utils.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
